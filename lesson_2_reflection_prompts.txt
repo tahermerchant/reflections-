@@ -3,6 +3,9 @@ Answer: A new repository is created which contains hidden .git file. It's role i
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Answer: In working directory the files which we are working on our harddrive are listed.
+		A repository contains the versionning of all files of our working directory while staging area offeres logical of separation files which can commited together and make our commits simple and easy.
+		I think it helps to do a logical separation of different files and easy to commit bunch of similar codes .
 
 How can you use the staging area to make sure you have one commit per logical
 change?

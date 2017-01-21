@@ -1,0 +1,39 @@
+Notes of the git- github code
+1) fc command is used to compare 2 files in a command line window.
+2) Git bash editor is in the system.
+3) Manually commit in git versionning system.
+4) command: git log 
+	is used to check the history of commited file version
+	shows: author, message and changes made.
+5) command : git diff versionid-1 versionid-2
+    is used to check difference between 2 commited files.
+6) command: git log stat
+    is used to get statistical information of a commit in more details.
+    shows: multiple commits and number of lines changed.
+7) command: git clone url_of repository 
+    is used to copy the entire repository to the local system.
+    after you copy. You can work without internet.
+8) command: clear 
+	is used to clear the screen.
+9) command:  git config --global color.ui auto
+	To get colored diff output.	
+10) command: get checkout
+    This command is used to restore the repository to previous stored version.
+11) command: git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"	
+	This command is used to configure a text editor in git bash.
+12)alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+	add thisline to bash file for a short cut to open text editor through command prompt.
+13) command: git config --global merge.conflictstyle diff3
+14) command: git config --global push.default upstream
+15) command: ls -a 
+	It is used to see the hidden dircetories.
+	In case of git system- it shows hidden files which contains meta data.
+16) command: git init
+	It creates a new git repositories in an empty or filled folder.
+17) command: git status 
+    It shows which files have been changed after the last commit.	
+18) command: git add filename.txt
+    It adds the file to staging area which are to be commited. This gives for flexibility to a user to commit similar files together.
+
+
+
