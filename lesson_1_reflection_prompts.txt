@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Answer: It was very easy to spot the typos and changes made. I felt comfortable to debug the file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Answer: It would help me evaluate my work easily. I would understand how productive I am and would save my time in many cases wil debugging.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Answer: Pros:
+		1) You can just make right commits when you need.
+		2) easy tomange.
+		cons:
+		1) you can forget to commit.
+		2) sometimes commits can be for too big changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer: When files are inter-related in coding, a programmer needs to make changes to multiple files. For eg: functionality change which affects code in multiple
+files. hence, a good versionning system should allow saving multiple files in once commit so that it becomes easy to track.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Answer: git log command is used to see the history of files commited with author name , message and time. While git diff command is used to see specific 
+changes made between two commits like what is being added or deleted.
+Also a special command is used to change system setting for viewing colored themes.
+ git config --global color.ui auto
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Answer: Even if i make some changes which could break something, i can easily go back to the working version. Git is great to help me sort out this problem.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer: I would like to use git for versionning my documents and code files. It was great experience to learn git. No excited to learn git-hub.
+
