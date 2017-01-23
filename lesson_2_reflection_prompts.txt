@@ -9,14 +9,26 @@ Answer: In working directory the files which we are working on our harddrive are
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+Answer: I can make changes to my working directory files and add them to staging area. It will help me to commit a single logical change tp my 			repository.My staging area files can be compared to working directory as well as respository using different modes of diff command.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Answer: If I have to make some experimental changes without disturbing the working code, I can create a branch on which I can work on those 			experimental changes. If I have to create a new set of functionalities for some users, I can create them in my branch without 			        disturbing the original functionalities.
+
+		1) Whenever I am doing something new, I will create a new branch.
+		2) Master branch is production quality branch which will always work and never breaks. This helps you to keep your code organized.
+		3) Helps for context switching and compartmentalizing your work.
+		4) Branch helps for collabirative work.
+
 
 How do the diagrams help you visualize the branch structure?
+Answer: It helps to get the clear picture of branch structure of repository and accessible commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Answer: We merge 2 branches together so that we can add the functionalities implemented in one branch to the main branch and we have a 		        production ready code. We reepresent it in the daigran so that we have a clear understanding of the commits which we have made.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Answer: Automatic merging helps users to merge two commits without doing any manual interventions will it may not be able to resolve conflicts 
+		logical task. Git then asks to resolve it manually. Hence, I believe git offeres a complete and good pcakage of versiooning system

@@ -5,8 +5,12 @@ Notes of the git- github code
 4) command: git log 
 	is used to check the history of commited file version
 	shows: author, message and changes made.
+    command: git log --graph --online branch_name1 branch_name2 .....n
+    shows the graph structure of commits made to each branch in chronological order. 	
 5) command : git diff versionid-1 versionid-2
     is used to check difference between 2 commited files.
+    command without arguments will show me the diff between the changes made in the working directory but not added to staging area.
+    command: git diff --staged will show the diff between the files added to staging area and the files in repository.
 6) command: git log stat
     is used to get statistical information of a commit in more details.
     shows: multiple commits and number of lines changed.
@@ -17,8 +21,9 @@ Notes of the git- github code
 	is used to clear the screen.
 9) command:  git config --global color.ui auto
 	To get colored diff output.	
-10) command: get checkout
+10) command: git checkout
     This command is used to restore the repository to previous stored version.
+    command: git checkout master
 11) command: git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"	
 	This command is used to configure a text editor in git bash.
 12)alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
@@ -34,6 +39,24 @@ Notes of the git- github code
     It shows which files have been changed after the last commit.	
 18) command: git add filename.txt
     It adds the file to staging area which are to be commited. This gives for flexibility to a user to commit similar files together.
+19) command: git reset --hard
+	be very carefull with this command. It resets the changes made in working area to that of previous version in the repository.
+	The changes made here could be lost.
+20) command: git branch branch_name
+	It creates a new branch with the branch name.
+	command: git branch
+	It display all the branches of a repsitory
+	command:  git checkout branch_name  
+	It points the new branch
+	command: git branch -d branch_name
+	It deletes the branch.
+21) command: git merge branch_name1 branch_name2
+    This command mergers two branches. For carrying out this operation one needs to checkout to the branch in which the other branch is to to be merged.
+22) command: git show commit_id
+	In case of merged branches, commits are not in linear order due to commit storage strategy based on timestamp. So if you want to check the parent of some commit, you use this command.
+	command: git merge --abort
+	restore your files to previous version, before the merge.  
+
 
 
 
