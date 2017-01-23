@@ -56,6 +56,12 @@ Notes of the git- github code
 	In case of merged branches, commits are not in linear order due to commit storage strategy based on timestamp. So if you want to check the parent of some commit, you use this command.
 	command: git merge --abort
 	restore your files to previous version, before the merge.  
+23) command: git remote
+	It shows the remote connection on local machines.
+	command: git remote add name_of_connection web_link_of_repository 
+	It adds connection to web github repository.
+24) command: git push name_of_connection branch_name
+    It synchronizes the contents of local branch to remote.		
 
 
 
